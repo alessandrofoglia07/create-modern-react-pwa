@@ -14,8 +14,13 @@ This modern template is the perfect starting point for any modern React project.
 
 -   [Features](#features)
 -   [Getting started](#getting-started)
+    -   [Download as a zip file](#download-as-a-zip-file)
+    -   [Clone using git](#clone-using-git)
+    -   [Create a new repository on GitHub using this template](#create-a-new-repository-on-github-using-this-template)
 -   [Next steps](#next-steps)
 -   [Commands](#commands)
+    -   [Default commands](#default-commands)
+    -   [Docker commands](#docker-commands)
 -   [License](#license)
 
 <br>
@@ -142,23 +147,23 @@ Runs ESLint on the `src` folder.
 
 ### Docker commands
 
-### `pnpm docker-build-dev`
+### `pnpm docker-build:dev`
 
 Builds the app for development using Docker.
 
-### `pnpm docker-build-prod`
+### `pnpm docker-build:prod`
 
 Builds the app for production using Docker.
 
-### `pnpm docker-run-dev-win`
+### `pnpm docker-run:dev-win`
 
 Runs the app in development mode using Docker on Windows. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `pnpm docker-run-dev-linux`
+### `pnpm docker-run:dev-linux`
 
 Runs the app in development mode using Docker on Linux. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `pnpm docker-run-prod`
+### `pnpm docker-run:prod`
 
 Runs the app in production mode using Docker. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 

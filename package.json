@@ -10,11 +10,11 @@
         "build": "tsc && vite build",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
-        "docker-build-dev": "docker build -t modern-vite-react-app-dev -f Dockerfile.dev .",
-        "docker-build-prod": "docker build -t modern-vite-react-app-prod -f Dockerfile.prod .",
-        "docker-run-dev-win": "docker run -it --rm -p 3000:3000 --name modern-vite-react-app -d -v %cd%/src:/app/src:ro -v %cd%/public:/app/public:ro -v %cd%/index.html:/app/index.html:ro modern-vite-react-app-dev",
-        "docker-run-dev-linux": "docker run -it --rm -p 3000:3000 --name modern-vite-react-app -d -v $(pwd)/src:/app/src:ro -v $(pwd)/public:/app/public:ro -v $(pwd)/index.html:/app/index.html:ro modern-vite-react-app-dev",
-        "docker-run-prod": "docker run -it --rm -p 8080:80 --name modern-vite-react-app -d modern-vite-react-app-prod"
+        "docker-build:dev": "docker build -t modern-vite-react-app-dev -f Dockerfile.dev .",
+        "docker-build:prod": "docker build -t modern-vite-react-app-prod -f Dockerfile.prod .",
+        "docker-run:dev-win": "docker run -it --rm -p 3000:3000 --name modern-vite-react-app -d -v %cd%/src:/app/src:ro -v %cd%/public:/app/public:ro -v %cd%/index.html:/app/index.html:ro modern-vite-react-app-dev",
+        "docker-run:dev-linux": "docker run -it --rm -p 3000:3000 --name modern-vite-react-app -d -v $(pwd)/src:/app/src:ro -v $(pwd)/public:/app/public:ro -v $(pwd)/index.html:/app/index.html:ro modern-vite-react-app-dev",
+        "docker-run:prod": "docker run -it --rm -p 8080:80 --name modern-vite-react-app -d modern-vite-react-app-prod"
     },
     "dependencies": {
         "@headlessui/react": "^1.7.17",
