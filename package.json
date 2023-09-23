@@ -1,6 +1,7 @@
 {
     "name": "modern-vite-react-app",
     "private": true,
+    "description": "Modern Vite React App",
     "version": "1.0.0",
     "type": "module",
     "license": "MIT",
