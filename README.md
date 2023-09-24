@@ -66,6 +66,13 @@ This template includes the following features:
     **[ESLint](https://eslint.org/)** - A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.
     </div>
 
+-   <div style="display: flex; align-items: center; transform: translateY(25%)"><img style="width: 10%; border: none!important; margin-right: 10px; margin-bottom: 20px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbrandslogos.com%2Fwp-content%2Fuploads%2Fimages%2Flarge%2Fprettier-logo.png&f=1&nofb=1&ipt=1c224c986059edaabb2b01cdb02367258fff0b442aa645a1a65d69fe36dfd35b&ipo=images">
+
+    **[Prettier](https://prettier.io/)** - An opinionated code formatter that enforces a consistent code style across your entire codebase.
+    </div>
+
+</div>
+
 -   <div style="display: flex; align-items: center; transform: translateY(25%)"><img style="width: 10%; border: none!important; margin-right: 10px; margin-bottom: 20px" src="https://raw.githubusercontent.com/alessandrofoglia07/modern-vite-react-app/main/public/logos/tailwindcss-logo.png">
 
     **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapidly building custom user interfaces.
@@ -144,6 +151,14 @@ Serves the production build from the `dist` folder.
 ### `pnpm lint`
 
 Runs ESLint on the `src` folder.
+
+### `pnpm format`
+
+Runs Prettier on the `src` folder and fixes the errors.
+
+### `pnpm format:check`
+
+Runs Prettier on the `src` folder and checks for errors.
 
 ### Docker commands
 
