@@ -2,7 +2,7 @@
 
 <br>
 
-# **Modern** Vite React App Template
+# **Modern** Vite React PWA Template
 
 This modern template is the perfect starting point for any modern React project. It includes the latest and greatest tools and technologies to help you build your next project.
 
@@ -12,16 +12,27 @@ This modern template is the perfect starting point for any modern React project.
 
 ## Table of contents
 
+-   [Installation](#installation)
 -   [Features](#features)
--   [Getting started](#getting-started)
-    -   [Download as a zip file](#download-as-a-zip-file)
-    -   [Clone using git](#clone-using-git)
-    -   [Create a new repository on GitHub using this template](#create-a-new-repository-on-github-using-this-template)
 -   [Next steps](#next-steps)
 -   [Commands](#commands)
     -   [Default commands](#default-commands)
     -   [Docker commands](#docker-commands)
 -   [License](#license)
+
+<br>
+
+## Installation
+
+```bash
+npx create-modern-react-pwa my-app
+```
+
+or
+
+```
+pnpx create-modern-react-pwa my-app
+```
 
 <br>
 
@@ -88,33 +99,13 @@ This template includes the following features:
 <br>
 <br>
 
-## Getting started
-
-To get started with this template, you can either download the template as a zip file, clone it using git or create a new repository on GitHub using this template.
-
-### Download as a zip file
-
-Click on the `Code` button at the top of the page and then click on `Download ZIP`. Once the download is complete, extract the zip file and open the folder in your favorite code editor.
-
-### Clone using git
-
-Open your terminal and run the following command:
-
-```bash
-git clone https://github.com/alessandrofoglia07/modern-vite-react-app.git my-app
-```
-
-Once the project is cloned, open the folder in your favorite code editor.
-
-### Create a new repository on GitHub using this template
-
-Click on the `Use this template` button at the top of the page. Once the repository is created, clone it using git and open the folder in your favorite code editor.
-
-<br>
-
 ## Next steps
 
 Once you have downloaded or cloned the template, you need to install the dependencies. To do so, run the following command:
+
+```bash
+cd my-app
+```
 
 ```bash
 pnpm install
